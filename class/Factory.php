@@ -6,6 +6,8 @@ namespace LittleToDo;
  */
 class Factory
 {
+	private $namespace = __NAMESPACE__;
+	
 	public function __construct(
 
 	)
