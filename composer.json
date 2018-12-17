@@ -15,6 +15,7 @@
 	}
   },
   "require": {
-    "twig/twig": "^2.6"
+    "twig/twig": "^2.6",
+    "slim/slim": "^3.0"
   }
 }

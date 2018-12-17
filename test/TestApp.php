@@ -4,7 +4,7 @@ namespace LittleToDo;
 
 final class TestApp extends TestCase
 {
-	/** App $mockedApp */
+	/** App $app */
 	private $app;
 	
 	protected function setUp()
@@ -12,11 +12,6 @@ final class TestApp extends TestCase
 		parent::setUp();
 		
 		$this->app = $this->factory->getApp();
-	}
-	
-	public function testExists()
-	{
-		$this->assertInstanceOf("\\LittleToDo\\App", $this->app);
 	}
 	
 	public function testRendersApp()
