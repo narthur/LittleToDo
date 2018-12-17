@@ -1,0 +1,20 @@
+{
+  "require-dev": {
+	"phpunit/phpunit": "^7.5"
+  },
+  "scripts": {
+	"test": "./vendor/bin/phpunit --configuration phpunit.xml"
+  },
+  "autoload": {
+	"psr-4": {
+	  "LittleToDo\\": [
+		"class/",
+		"test/",
+		"test/stubs/"
+	  ]
+	}
+  },
+  "require": {
+    "twig/twig": "^2.6"
+  }
+}

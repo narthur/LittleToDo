@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit backupGlobals="true">
+	<testsuite name='Tests'>
+		<directory prefix="Test" suffix=".php">./test</directory>
+	</testsuite>
+</phpunit>
