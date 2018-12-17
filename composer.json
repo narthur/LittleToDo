@@ -10,7 +10,7 @@
 	  "LittleToDo\\": [
 		"class/",
 		"test/",
-		"test/stubs/"
+		"test/stub/"
 	  ]
 	}
   },

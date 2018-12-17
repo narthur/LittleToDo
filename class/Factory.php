@@ -3,16 +3,20 @@ namespace LittleToDo;
 
 /**
  * Class Factory
+ * @method getApp()
  */
 class Factory
 {
 	private $namespace = __NAMESPACE__;
 	
+	/** @var Twig $twig */
+	private $twig;
+	
 	public function __construct(
-
+		Twig $twig = null
 	)
 	{
-
+		$this->twig = $twig;
 	}
 	
 	/**
